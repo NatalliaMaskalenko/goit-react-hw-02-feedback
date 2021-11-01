@@ -12,8 +12,8 @@ class App extends Component{
     }
 
       handleIncrement = option => {
-    this.setState(prevStat => ({
-      [option]: prevStat[option] + 1,
+    this.setState(prevState => ({
+      [option]: prevState[option] + 1,
     }));
   };
 
